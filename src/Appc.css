@@ -1,0 +1,35 @@
+k:before, k:after {
+  box-sizing: inherit;
+}
+
+.columnc {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .columnc {
+    width: 100%;
+    display: block;
+  }
+}
+
+.cardc {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.containerc {
+  padding: 0 16px;
+}
+
+.containerc::after, .rowc::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.titles {
+  color: grey;
+}

@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+//
+
+.Navbar-position{
+
+margin-right:209px;
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #b4b4b4;
+  padding: 10px;
+  
+
+}
+
+.column {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  height: 507px;
+
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 3px solid #f1f1f1;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+#customers tr:nth-child(even){
+  background-color: #c0c0c0;
+  height:92px;
+}
+#customers tr:nth-child(odd){
+  background-color: #c0c0c0;
+  height:80px;
+}
+
+
+
+#customers th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #adad85;
+  color: white;
+}
+
+
+
+
+
+
+.button {
+  background-color: #f1f1f1; /* Green */
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 220px;
+  padding: 10px 24px;
+}
+.pagedir{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.pagrdirbutton {
+  background-color: #343a40;
+  color: white;
+  border: 2px solid #e7e7e7;
+}
+
+.pagrdirbutton:hover {
+  background-color: #e7e7e7;
+  color: black;
+}
+.root{
+  background-image: './2.pgp';
+  overflow:hidden;
+}
